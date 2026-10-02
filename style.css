@@ -1,0 +1,82 @@
+/* ----- Page ----- */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #2e7d32;
+}
+
+/* ----- Container ----- */
+#blog-container {
+    background-color: #e8f5e9;
+    border: 2px solid #2e7d32;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* ----- Buttons ----- */
+button {
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 14px;
+    margin-right: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Add button - green */
+#add-post-button {
+    background-color: #2e7d32;
+}
+
+#add-post-button:hover {
+    background-color: #1b5e20;
+}
+
+/* Edit buttons - grey */
+.edit-btn {
+    background-color: #607d8b;
+}
+
+.edit-btn:hover {
+    background-color: #455a64;
+}
+
+/* Delete button - red */
+.delete-btn {
+    background-color: #c62828;
+}
+
+.delete-btn:hover {
+    background-color: #8e0000;
+}
+
+/* ----- Posts ----- */
+#add-button-container {
+    margin-bottom: 20px;
+}
+
+.post {
+    background-color: white;
+    border-left: 5px solid #2e7d32;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.post h2 {
+    margin: 0 0 8px 0;
+    color: #2e7d32;
+}
+
+.post p {
+    margin: 0 0 12px 0;
+    line-height: 1.5;
+}
